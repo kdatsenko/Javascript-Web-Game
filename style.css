@@ -1,0 +1,85 @@
+html,
+body { 
+	color:#A52A2A;
+	background:#CCCCCC;
+	font-family: Comic Sans MS,Garamond, sans-serif;
+	color: #57534a;
+}
+ 
+#body { 
+	margin:0 auto; 
+}
+
+#start_page ,#game_page,#end_game_page {
+	
+	border-radius: 10px; 
+	margin:3px;
+	padding:3px; 
+	background:#751947;  
+	text-align: center; 
+	color:#F5EDE6;
+	min-width: 400px;
+} 
+
+/* style button start*/
+#start_game_btn,#restart_btn,#exit_btn,#pause_btn{
+	font-weight:bold; 
+	border-radius: 30px;
+    border:2px solid #cfdcec;
+	background: #4679BD; 
+    box-shadow: 0 0 3px gray;
+    text-align:center;
+	color:#e2eaf3;
+    font-family:Verdana; 
+    font-weight:bold;
+} 
+
+#start_game_btn,#restart_btn,#exit_btn,#pause_btn:hover {
+	background:#30588e;  
+}
+
+.hide {
+	display: none;
+}
+
+#info_bar{
+	width: 400px;
+	margin:0 auto;
+}	  
+
+header, #high_score, #game_over {
+	font-weight: bold;
+}
+
+#game { 
+	border: 1px solid #A52A2A;
+	background-color: #CCCCCC;
+	font-family: Comic Sans MS,Garamond, sans-serif;
+	text-align: center;
+}
+
+
+
+#timer, #pause_btn, #score_board {
+	display: inline;
+	text-align: center;
+
+}
+
+
+#timer {	
+	width: 130px; 
+	float:left; 
+}
+
+#pause_btn {
+	width: 140px;
+	float:left;
+}
+
+#score_board {
+	width: 120px;
+	float:right; 
+}
+
+

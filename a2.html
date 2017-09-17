@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script src="canvas.js"></script>
+	     <title>Tap Tap Bug</title>
+		
+	</head>
+	<body>
+		<div id="start_page">
+			<header><h1>Tap Tap Bug</h1></header>
+			 
+				<p>
+					Level:
+					<input type="radio" name="level" value="1" checked>1
+					<input type="radio" name="level" value="2">2
+				</p>  
+				<button id="start_game_btn" type="button">Start</button>
+				<p  id="high_score_p">High Score: <span id="high_score">0</span></p> 
+			 
+		</div>
+		<div id="game_page" class="hide">
+			<header id="info_bar">
+				<div id="timer">Time:<span id="time"></span></div>
+				 <button id="pause_btn">PAUSE</button> 
+				<div id="score_board">Score: <span id="this_score">0</span></div>
+			</header> 
+				 <canvas id="game" width="400px" height="600px"></canvas>
+			 
+		</div>
+		
+		<div id="end_game_page" class="hide">
+			 <header><h1>GAME OVER!</h1></header>
+			<p id="game_score_p">SCORE: <span id="game_score"></span></p>
+			<button id="restart_btn">Restart</button>
+			<button id="exit_btn">Exit</button>
+		</div>
+		<div id="bye_page" class="hide">
+			 <header><h1>Bye bye, come again!</h1></header>
+		</div>
+	</body>
+</html>
